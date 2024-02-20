@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="400" viewBox="0 0 600 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(5.97 0 0 1.4 299.46 198.95)"  >
+<linearGradient id="SVGID_4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -50 -50)"  x1="100" y1="46" x2="0" y2="54">
+<stop offset="0%" style="stop-color:rgba(182, 0, 245, 1);"/>
+<stop offset="100%" style="stop-color:rgba(0, 0, 255, 1);"/>
+</linearGradient>
+<polygon style="stroke: rgb(255,255,255); stroke-width: 0; stroke-dasharray: ; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: url(#SVGID_4); fill-rule: nonzero; opacity: 1;"  points="-25,-50 -50,50 25,50 50,-50 " />
+</g>
+<g transform="matrix(4.68 0 0 4.68 498.21 208.35)" style=""  >
+		<text xml:space="preserve" font-family="'Permanent Marker', cursive" font-size="15" font-style="italic" font-weight="normal" style="stroke: none; stroke-width: 5; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-85.12" y="4.71" >VKB TEAM</tspan></text>
+</g>
+</svg>
