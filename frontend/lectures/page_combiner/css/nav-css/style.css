@@ -1,26 +1,26 @@
-ul {
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.4em;
-    color: white;
-    padding: 0;
-}
+/*ul {*/
+/*    list-style-type: none;*/
+/*    text-align: center;*/
+/*    font-size: 1.4em;*/
+/*    color: white;*/
+/*    padding: 0;*/
+/*}*/
 
-a {
-    text-decoration: none;
-    color: white;
-}
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
 
-nav {
-    margin-bottom: 1rem;
-}
+/*nav {*/
+/*    margin-bottom: 1rem;*/
+/*}*/
 
-li {
-    display: inline;
-    margin-right: 10rem;
-    background: rebeccapurple;
-    border: 2px solid black;
-}
+/*li {*/
+/*    display: inline;*/
+/*    margin-right: 10rem;*/
+/*    background: rebeccapurple;*/
+/*    border: 2px solid black;*/
+/*}*/
 
 /*li {*/
 /*    border-radius:  12px; !* Скругленные углы *!*/

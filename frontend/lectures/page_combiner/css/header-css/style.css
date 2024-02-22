@@ -1,8 +1,50 @@
 header {
-    text-align: center;
-    height: 20rem;
-    margin-bottom: 1rem;
+    font-family: cursive;
+    color: white
 }
+
+/*Вся наша фиолетовая панель сверху, в которую мы добавляем элементы*/
+.navigation-panel {
+    display: grid;
+    align-items: center; /* Центрирование по вертикали */
+    grid-template-columns: auto auto auto auto auto; /* Создание  4 колонок для элементов */
+    justify-items: center; /* Центрирование по горизонтали */
+    background-color: #35185A;
+    border-radius: 1em;
+    box-shadow:  0  0  10px rgba(0,  0,  0,  0.5);
+}
+
+/*Значок нашей команды*/
+.photo-command img {
+    width:  5em; /* Задайте желаемую ширину */
+    height: 5em; /* Это гарантирует, что высота изображения будет пропорциональна его ширине */
+}
+
+/*Значок гитхаба, добавил с той целью, так как с гридом на 4 элемента мало, 5 нормально смотрится более-менее*/
+.github-icon {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.icon-text-container img {
+    width:  3em; /* Задайте желаемую ширину иконки */
+    height:  3em; /* Задайте желаемую высоту иконки */
+    margin-right:  1em; /* Добавьте отступ справа от иконки */
+}
+
+.icon-text-container:hover {
+    transform: translate3d(0, -2px,  0); /* Поднимаем элемент */
+    box-shadow:  0  5px  15px rgba(0,  0,  0,  0.3);
+}
+
 
 
 
