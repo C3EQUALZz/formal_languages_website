@@ -1,3 +1,6 @@
 body {
     background-color: #2b2a33;
+    background-image: url('/frontend/lectures/page_combiner/img/10137813_4378259.svg');
+    background-size: cover; /* чтобы изображение занимало всю доступную площадь */
+    background-repeat: no-repeat; /* чтобы изображение не повторялось */
 }
