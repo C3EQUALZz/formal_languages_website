@@ -1,3 +1,13 @@
 body {
     background-color: #2b2a33;
+    font-family: cursive;
+    color: white
+}
+
+.block-text {
+    background-color: #35185A;
+    border-radius: 1em;
+    box-shadow:  0  0  10px rgba(0,  0,  0,  0.5);
+    margin-bottom: 1em;
+    padding-left: 3em;
 }
