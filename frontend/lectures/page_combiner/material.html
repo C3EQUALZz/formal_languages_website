@@ -15,33 +15,37 @@
 <body>
 
 <header class="header">
-    <nav>
-        <div class="navigation-panel">
+    <span class="logo-command">
+        <img class="logo-command-image" src="img/vkb22-team-high-resolution-logo-transparent.svg" alt="вкб22">
+    </span>
+    <a class="icon-text-container github-icon" href="https://github.com/C3EQUALZz/formal_languages_website"
+       style="border-radius: 50%;">
+        <img src="img/github.svg" alt="">
+    </a>
+    <nav class="navigation-panel">
+        <ul class="navigation-list">
             <!--Переход в меню, не знаю почему есть проблемы-->
-            <a href="/frontend/menu/index.html" class="photo-command">
-                <img src="img/vkb22-team-high-resolution-logo-transparent.svg" alt="">
-            </a>
             <!--Должен быть переход на прошлую лекцию. Не знаю как правильно это оформить пока-->
+            <li class="navigation-item">
             <a class="icon-text-container">
                 <img src="icons/back_arrow.svg" alt="">
                 <span>Вернуться на прошлую лекцию</span>
             </a>
-
+            </li>
+            <li class="navigation-item">
             <a class="icon-text-container">
-                <img src="icons/forward_arrow.svg" alt="">
                 <span>Следующая лекция</span>
+                <img src="icons/forward_arrow.svg" alt="">
             </a>
+            </li>
             <!--Скорее всего надо будет сделать другой html файл, так как нужно будет добавить ответы на вопросы (типо тесты) -->
+            <li class="navigation-item">
             <a class="icon-text-container">
                 <img src="icons/practices.svg" alt="">
                 <span>Практика</span>
             </a>
-            <!--Костыль, чтобы нормально были распределены элементы-->
-            <a class="icon-text-container github-icon" href="https://github.com/C3EQUALZz/formal_languages_website"
-               style="border-radius: 50%;">
-                <img src="img/github.svg" alt="">
-            </a>
-        </div>
+            </li>
+        </ul>
     </nav>
 </header>
 
@@ -54,9 +58,9 @@
     </section>
 </main>
 
-<footer>
+<footer class="footer">
     <div>
-        <p>2024. Методический материал сделали: </p>
+        <p class="footer-info-text">2024. Методический материал сделали: </p>
         <a href="" class="typewrite" data-period="2000"
            data-type='[ "Вика Иван", "Ковалев Данил", "Карпов Роман", "Ермолаев Богдан", "Лёза Алексей" ]'>
             <span class="wrap"></span>

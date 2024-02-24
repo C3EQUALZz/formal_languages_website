@@ -1,22 +1,32 @@
 .header {
+    display: grid;
+    grid-template-columns: 80px 80px 1fr ;
+    align-items: center;
+    justify-items: center;
     font-family: cursive;
-    color: white
+    color: white;
+    background-color: #35185A;
+    border-radius: 1em;
+    box-shadow:  0  0  10px rgba(0,  0,  0,  0.5);
+
 }
 
 /*Вся наша фиолетовая панель сверху, в которую мы добавляем элементы*/
-.navigation-panel {
+.navigation-list {
     display: grid;
     align-items: center; /* Центрирование по вертикали */
     grid-template-columns: auto auto auto auto auto; /* Создание  4 колонок для элементов */
     justify-items: center; /* Центрирование по горизонтали */
-    background-color: #35185A;
-    border-radius: 1em;
-    box-shadow:  0  0  10px rgba(0,  0,  0,  0.5);
-    margin-bottom: 1em;
+
+    list-style-type:none;
 }
 
+
+.logo-command {
+    margin-left: 15px;
+}
 /*Значок нашей команды*/
-.photo-command img {
+.logo-command-image {
     width:  5em; /* Задайте желаемую ширину */
     height: 5em; /* Это гарантирует, что высота изображения будет пропорциональна его ширине */
 }
@@ -38,7 +48,6 @@
 .icon-text-container img {
     width:  3em; /* Задайте желаемую ширину иконки */
     height:  3em; /* Задайте желаемую высоту иконки */
-    margin-right:  1em; /* Добавьте отступ справа от иконки */
 }
 
 .icon-text-container:hover {

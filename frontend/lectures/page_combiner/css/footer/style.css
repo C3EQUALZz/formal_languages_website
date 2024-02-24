@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: black;
     border-radius: 1em;
     box-shadow:  0  0  10px rgba(0,  0,  0,  0.5);
@@ -6,7 +6,7 @@ footer {
     height: 6em;
 }
 
-p {
+.footer-info-text {
     padding-top: 1em;
     text-align: center;
 }
